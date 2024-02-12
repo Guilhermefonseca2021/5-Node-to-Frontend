@@ -1,17 +1,16 @@
 {
-  "name": "01-calltracker",
+  "name": "5_node_to_frontend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "dev": "node index.test.mjs",
+    "start": "npx http-server .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "node": "^21.6.1"
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }

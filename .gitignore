@@ -1,1 +1,4 @@
 node_modules
+*console.log
+*log
+.gitignore
