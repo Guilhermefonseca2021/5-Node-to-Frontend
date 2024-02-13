@@ -1,9 +1,7 @@
-// td que é requisicao de server, api de dados colocamos na server.js
 export default class Service {
   constructor({ url }) {
     this.url = url;
   }
-  
   async getCharacters({ skip, limit }) {
     let data = [];
     const currentLocalStorageData = localStorage.getItem("characters");
