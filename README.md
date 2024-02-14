@@ -40,3 +40,13 @@ para usar index.html importo o script da nossa src como type="module" tbm.
 ```
 
 <a href="https://www.youtube.com/watch?v=n0lNNu2qMcU&list=PLVQmnJOxIUz-qaHVVuEUHCfC6ZYJeExg_&index=2&t=1333s&ab_channel=ErickWendel">Content used. </a>
+
+## Single-responsiblite
+
+extrair tudo que nao depende da camada do front end e regras de negocios e api externas.
+
+## Dependecies
+
+aplicar os conceitos de camada em cada proprieadade por cima sem mesclar em um so separand em DRY.
+
+## Node native tests
